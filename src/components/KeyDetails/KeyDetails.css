@@ -1,0 +1,24 @@
+.KeyDetails{
+    margin-top:130px;
+}
+.heading{
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+.KeyDetails h3{
+    font-size:20px;
+    font-weight: 700;
+    margin: 30px 0px;
+}
+.js{
+    color: #F7DF1E;
+}
+.react{
+    color: #61DAFB;
+}
+.node{
+  color: #339933;
+}
+.mongo{
+    color:#47A248;
+}

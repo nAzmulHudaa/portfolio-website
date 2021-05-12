@@ -1,0 +1,32 @@
+.portfolio{
+    margin-top: 130px;
+}
+.portfolio-box{
+    border: 1px solid black;
+    padding: 40px;
+}
+.portfolio-display p{
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    text-align: left;
+    margin: 20px 0px;
+}
+.portfolio h2{
+    margin-bottom: 90px;
+}
+.portfolio-box h4{
+    text-align: left;
+}
+.webBtn{
+    position: relative;
+    right: 52px;
+}
+.rockBtn{
+    position: relative;
+    right: 50px;
+}
+.footballBtn{
+    position: relative;
+    right: 50px;
+}

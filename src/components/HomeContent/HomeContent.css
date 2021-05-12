@@ -1,0 +1,75 @@
+.button{
+    border: 1px solid black;
+    padding: 10px 26px;
+    font-size: 17px;
+    color: rgb(224, 34, 34);   
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.459);
+}
+.home-content{
+    position: relative;
+    top: 110px;
+    overflow: hidden;
+}
+.home-content h1{
+    font-size: 55px;
+    font-weight: 800;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 5px;
+    line-height: normal;
+}
+.line{
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgb(165, 165, 165), rgba(0, 0, 0, 0));
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    height: 1px;
+    width: 100%;
+    max-width:300px;
+    margin: 0 auto;
+    content: "";
+}
+.home-content p{
+    font-size: medium;
+    font-weight: 500;
+    letter-spacing: 3px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+@media only screen and (max-width: 600px) {
+
+  .home-content h1{
+      font-size: 40px;
+  }
+  .home-content{
+      position: relative;
+      bottom: 350px;
+
+  }
+}
+::-webkit-scrollbar {
+    width: 0px;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .home-content{
+        position: relative;
+        top: 60px;
+    }
+    .home-content h1{
+        font-size:35px;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .home-content p{
+        display: block;
+    }
+}
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .home-content{
+       position: relative;
+       top: 0px;
+    }
+}
